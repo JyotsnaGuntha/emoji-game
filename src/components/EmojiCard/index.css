@@ -1,0 +1,31 @@
+/* File: src/components/EmojiCard/index.css */
+
+.emoji-item {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.emoji-button {
+  background-color: #ffffff33;
+  border: none;
+  border-radius: 16px;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emoji-button:hover {
+  transform: scale(1.1);
+}
+
+.emoji-image {
+  width: 80px;
+  height: 80px;
+}

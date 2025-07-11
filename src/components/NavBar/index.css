@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #ffffff33;
+  border-bottom: 1px solid #ffffff30;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title {
+  font-size: 22px;
+  margin: 0;
+  line-height: 1;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  gap: 2px;
+  margin: 0 10px;
+}
+
+.score {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.info-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #ffffffcc;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  transition: background-color 0.2s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .scores {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .score {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 36px;
+  }
+}

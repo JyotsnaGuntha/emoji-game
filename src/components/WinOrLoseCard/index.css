@@ -1,0 +1,48 @@
+/* Write your code here. */
+.win-lose-card {
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  padding: 40px;
+  color: #3d3d3d;
+  max-width: 800px;
+}
+
+.text-container {
+  text-align: left;
+}
+
+.result-text {
+  font-size: 32px;
+  color: #3d3d3d;
+  margin-bottom: 10px;
+}
+
+.score-label {
+  font-size: 18px;
+  color: #3d3d3d;
+}
+
+.score-value {
+  font-size: 26px;
+  font-weight: bold;
+  color: #6a59ff;
+}
+
+.play-again-button {
+  background-color: #ffce27;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.result-image {
+  width: 250px;
+  height: auto;
+}
